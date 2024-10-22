@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="container-fluid p-2 bg-white sticky-top border-bottom">
+        <nav class="navbar navbar-expand-sm">
+            <a href="#" class="navbar-brand">
+                <img src="assests/images/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" data-bs-target="#mynav" data-bs-toggle="collapse"><span class="navbar-toggler-icon"></span></button>
+            <div id="mynav" class="collapse navbar-collapse justify-content-end">
+                <ul class="navbar-nav px-5">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><strong>HOME</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link"><strong>ABOUT US</strong></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="" class="nav-link"><strong>SERVICES</strong></a>
+                        <div class="dropdown-options">
+                            <a href="employeetransportation.html">Employee Trasportaion</a>
+                            <a href="monthlyrental.html">Monthly Rental</a>
+                            <a href="airporttransfer.html">Airport Transfer</a> 
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link"><strong>CONTACT US</strong></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="container-fluid p-5">
+        <div class="carousel slide" data-bs-ride="carousel" id="myride">
+            <ul class="carousel-indicators">
+                <li data-bs-target="#myride" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#myride" data-bs-slide-to="1"></li>
+                <li data-bs-target="#myride" data-bs-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-10 mx-auto col-md-6 col-xl-6 text-center emp">
+                            <div>
+                             <h2 class="animate__animated animate__lightSpeedInLeft">Employee Transport Services</h2> 
+                               <h6 class="animate__animated animate__lightSpeedInLeft">Ensure seamless & hassle free transport experience
+                                for your employees</h6>
+                                <button class="btn btn-dark animate__animated animate__lightSpeedInLeft mb-5"><a href="employeetransportation.html">Read More</a></button>
+                            </div>
+                        </div>
+                        <div class="col-10 mx-auto col-md-6 col-xl-6">
+                            <img src="assests/images/banner1.png" class="w-100" alt="">
+                        </div>
+                    </div>
+                </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-10 mx-auto col-md-6 col-xl-6 text-center emp">
+                        <div>
+                            <h2 class="animate__animated animate__lightSpeedInLeft">Shuttle Services</h2>
+                            <h6 class="animate__animated animate__lightSpeedInLeft">Connect your employees to workplace from the
+                                nearest location through iCabs shuttle bus services</h6>
+                            <button class="btn btn-dark animate__animated animate__lightSpeedInLeft mb-5"><a href="monthlyrental.html">Read More</a></button>
+                        </div>
+                    </div>
+                    <div class="col-10 mx-auto col-md-6 col-xl-6">
+                        <img src="assests/images/banner2.png" class="w-100" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-10 mx-auto col-md-6 col-xl-6 text-center emp">
+                        <div>
+                            <h2 class="animate__animated animate__lightSpeedInLeft">Airport Transfer</h2>
+                            <h6 class="animate__animated animate__lightSpeedInLeft">Travelling to Airport made easy, reach on time
+                                with iCabs transport</h6>
+                            <button class="btn btn-dark animate__animated animate__lightSpeedInLeft mb-5"><a href="airporttransfer.html">Read More</a></button>
+                        </div>
+                    </div>
+                    <div class="col-10 mx-auto col-md-6 col-xl-6">
+                        <img src="assests/images/banner3.png" class="w-100" alt="">
+                    </div>
+                </div>
+                </div>
+            </div>
+         <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#myride"><span class="carousel-control-prev-icon"></span></button>
+         <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#myride"><span class="carousel-control-next-icon"></span></button>
+        </div>
+    </section>
+      <section class="container-fluid text-center mx-auto p-5 wel">
+        <h1>Welcome to <span>iCabs Transport Solution</span></h1>
+        <p class="mt-4">iCabs Transport Solution is the largest transportation company in Telangana for working professionals. We started this transportation service with the aim to exceed customer expectation and create new benchmark in the service industry. We carry in-depth understanding about corporate world requirement and are equipped with top brand car companies with top quality condition. So whether you want your delegates to be picked by professionals or want your employees to reach the business event on time and safely, then iCabs Transport Solution is at your service. If you are looking for car rental assistance in Telengana , then contact us now.</p>
+        </section>
+        <section class="container-fluid p-5 text-bg-dark text-justify ser">
+            <h1 class="text-center">Our <span>Services</span></h1>
+            <p class="mt-4 text-center">iCabs Transportation solution is one of the largest and most experienced transport solution company in Telangana. Started in 2008, we are locally owned and operating, contributing to our local economy and its growth.</p>                        
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="card">
+                        <img src="assests/images/image1.png" alt="">
+                        <h4 class="card-title"><strong>Employee Transportation</strong></h4>
+                        <p class="card-text">iCabs Transport service has emerged as the leading transport company in Telangana, Hyderabad for Employee Transportation. Since, Hyderabad is the IT hub; employees have different working hours</p>
+                        <a href="employeetransportation.html">Read More<i class="bi bi-arrow-right-short p-1"></i></a>
+                    </div>                    
+                    </div>
+                    <div class="item">
+                        <div class="card">
+                            <img src="assests/images/image2.png" alt="">
+                            <h4 class="card-title"><strong>Monthly Rental</strong></h4>
+                            <p class="card-text">Since, iCabs is equipped with high end fleet of vehicles; you can book as per your corporate needs.Whether you have group of delegates coming or couple of top company associates regularly.</p>
+                            <a href="monthlyrental.html">Read More<i class="bi bi-arrow-right-short p-1"></i></a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card">
+                            <img class="card w-100" src="assests/images/image3.png" alt="Title" />
+                                 <h4 class="card-title"><strong>Airport Transport</strong></h4>
+                                 <p class="card-text">We at iCabs Transport Service offer reliable and affordable airport transfer service in Telangana, Hyderabad. With high-quality vehicles and professional drivers, you can expect good service</p>
+                                 <a href="airporttransfer.html">Read More<i class="bi bi-arrow-right-short p-1"></i></a>
+                             </div>
+                    </div>
+                    <div class="item">
+                        <div class="card">
+                            <img class="card w-100" src="assests/images/image4.png" alt="Title" />
+                                <h4 class="card-title"><strong>Corporate Car</strong></h4>
+                                <p class="card-text">Our corporate car rental service is spread across Telangana, Hyderabad for all major companies. Corporate organizations need to devote their precious time on implementing transport service to employees.</p>
+                                <a href="monthlyrental.html">Read More<i class="bi bi-arrow-right-short p-1"></i></a>
+                            </div>
+                    </div>
+                    <div class="item">
+                        <div class="card">
+                            <img class="card w-100" src="assests/images/image5.png" alt="Title" />
+                                <h4 class="card-title"><strong>Safety Standards Of icab</strong></h4>
+                                <p class="card-text">Safety of our clients is the paramount measure we follows strict measures. After properly screening each of our drivers and employees, we train them before going on ground, especially women safety is really important</p>
+                        <a href="airporttransfer.html">Read More<i class="bi bi-arrow-right-short p-1"></i></a>
+                    </div>
+                    </div>                                                                      
+           </section>
+            <section class="container-fluid p-5 fom text-center">
+                <h1>Request A <span>Free Quote</span></h1>
+                <p class="mt-4">We've distilled our Employee Transport process into 4 Steps – the same steps we have been using for more than 11 years.</p>
+                <div class="row">
+                    <div class="col-10 mx-auto col-lg-6 col-xl-6 mt-5">
+                        <img class="w-100" src="assests/images/home banner.jpg" alt="">
+                    </div>
+                    <div class="col-10 mx-auto col-lg-6 col-xl-6 mt-5">
+                       <div class="row">
+                        <div class="col-12 col-lg-12 col-xl-6">
+                            <div class="row">
+                                <div class="col-2 col-lg-2 col-xl-2">
+                                    <span><i class="bi bi-person-fill"></i></span>
+                                </div>
+                                <div class="col-10 col-lg-10 col-xl-10">
+                                    <input type="text" name="name" id="name" placeholder="Name" class="form-control"><br><br>
+                                </div>
+                            </div>                            
+                            </div>
+                            <div class="col-12 col-lg-12 col-xl-6">
+                                <div class="row">
+                                    <div class="col-2 col-lg-2 col-xl-2">
+                                        <span><i class="bi bi-envelope"></i></span>
+                                    </div>
+                                    <div class="col-10 col-lg-10 col-xl-10">
+                                        <input type="text" name="email" id="email" placeholder="E-Mail" class="form-control"><br><br>
+                                    </div>
+                                </div>                               
+                                </div>
+                                <div class="col-12 col-lg-12 col-xl-6">
+                                    <div class="row">
+                                        <div class="col-2 col-lg-2 col-xl-2">
+                                            <span><i class="bi bi-telephone-fill"></i></span>
+                                        </div>
+                                        <div class="col-10 col-lg-10 col-xl-10">
+                                            <input type="tel" name="phone" id="phone" placeholder="Phone No." class="form-control"><br><br>
+                                        </div>
+                                    </div>                                   
+                                </div>   
+                                <div class="col-12 col-lg-12 col-xl-6">
+                                    <div class="row">
+                                        <div class="col-2 col-lg-2 col-xl-2">
+                                            <span><i class="bi bi-bookmark-fill"></i></span>
+                                        </div>
+                                        <div class="col-10 col-lg-10 col-xl-10">
+                                            <select name="service type" id="service type" class="form-select">
+                                                <option value="-1">Select Services</option>
+                                                <option value="Employee Transportaion">Employee Transportaion</option>
+                                                <option value="Corporate Car">Corporate Car</option>
+                                                <option value="Airport Transfer">Airport Transfer</option>
+                                                <option value="Monthly Rental">Monthly Rental</option>
+                                                <option value="Enquiry">Enquiry</option>
+                                            </select><br><br>
+                                        </div>
+                                    </div>                                   
+                                </div>
+                                <div class="col-12 col-lg-12 col-xl-12">
+                                    <div class="row">
+                                        <div class="col-2 col-lg-2 col-xl-2">
+                                            <span><i class="bi bi-map-fill"></i></span>
+                                        </div>
+                                        <div class="col-10 col-lg-10 col-xl-10">
+                                            <textarea name="message" id="message" placeholder="Message" class="form-control"></textarea>
+                                        </div>
+                                    </div>                                   
+                                </div>
+                                <div class="col-12 col-lg-12 col-xl-12 mt-5">
+                                    <button type="submit" name="Submit" class="btn">Send Message</button>
+                                </div>
+                    </div>
+                        </div>
+                       </div>
+            </section>
+            <section class="container-fluid p-5 text-center text-bg-dark">
+                <h1>Our Achievements</h1>
+                <div class="row mt-4">
+                      <div class="col-10 mx auto col-lg-3 mx-auto col-xl-3">
+                        <h2><span><i class="bi bi-calendar-fill"></i></span></h2>
+                        <h2 class="p-4"><span id="counter1">242</span>+</h2>
+                        <h6>Events Done</h6>
+                    </div>
+                    <div class="col-10 mx auto col-lg-3 mx-auto col-xl-3">
+                        <h2><span><i class="bi bi-globe-americas"></i></span></h2>
+                        <h2 class="p-4"><span id="counter2">100</span>+</h2>
+                        <h6>Clients Worldwide</h6>
+                    </div>
+                    <div class="col-10 mx auto col-lg-3 mx-auto col-xl-3">
+                        <h2><span><i class="bi bi-car-front-fill"></i></span></h2>
+                        <h2 class="p-4"><span id="counter3">1500</span>+</h2>
+                        <h6>Vehicles</h6>
+                    </div>
+                    <div class="col-10 mx auto col-lg-3 mx-auto col-xl-3">
+                        <h2><span><i class="bi bi-people-fill"></i></span></h2>
+                        <h2 class="p-4"><span id="counter4">120</span>+</h2>
+                        <h6>People in Team</h6>
+                    </div>
+                    </div>
+            </section>
+            <section class="container-fluid p-5 text-center meet">
+                <h1>Our Process</h1>
+                <p class="mt-4">We've distilled our Employee Transport process into 4 Steps – the same steps we have been using for more than 11 years.</p>
+                    <div class="row">
+                     <div class="col-10 mx-auto col-lg-3 col-xl-4">
+                        <h2><span><i class="bi bi-person-circle"></i></span></h2>
+                        <h5 class="p-4"><span>Meet Clients</span></h5>
+                        <p>Meeting with client to get there requirements and Analyzing the client needs and work accordingly.</p>
+                    </div>
+                    <div class="col-10 mx-auto col-lg-3 col-xl-4">
+                        <h2><span><i class="bi bi-keyboard"></i></span></h2>
+                        <h5 class="p-4"><span>Prepare Roaster</span></h5>
+                        <p>Curating the data and making the hassle free roster for the client for the smooth operations.</p>
+                    </div>
+                    <div class="col-10 mx-auto col-lg-3 col-xl-4">
+                        <h2><span><i class="bi bi-map-fill"></i></span></h2>
+                        <h5 class="p-4"><span>Procurement Phase</span></h5>
+                        <p>Establishing payment terms, strategic vetting, selection, the negotiation of contracts.</p>
+                    </div>
+                    <div class="col-10 mx-auto col-lg-3 col-xl-4">
+                        <h2><span><i class="bi bi-car-front-fill"></i></span></h2>
+                        <h5 class="p-4"><span>Deployment Of Cabs</span></h5>
+                        <p>Deploying the Vehicles, Initializing the Transportation.</p>
+                    </div>
+                    </div>
+            </section>
+            <section class="container-fluid p-5 makes">
+                <div class="row">
+                    <div class="col-12 col-lg-6 col-xl-6">
+                        <h3 class="spa mb-5">What <span>Makes Us Special?</span></h3>
+                            <div class="row">
+                            <div class="col-12 col-lg-12 col-xl-12 mb-1">
+                                <button data-bs-target="#detail-info1" data-bs-toggle="collapse"> 24/7 Support <i class="bi bi-plus-lg text-end"></i></button>
+                                    <p class="collapse" id="detail-info1">We will be deploying a dedicated supervisor of the smooth operations of transportation of employees. We have well trained supervisors, who are can handle any situation in transportation.</p>
+                            </div>
+                            <div class="col-12 col-lg-12 col-xl-12 mb-1">
+                                <button data-bs-target="#detail-info2" data-bs-toggle="collapse">GPS Enabled <i class="bi bi-plus-lg text-end"></i></button>
+                                    <p class="collapse" id="detail-info2">We have GPS installed in all cabs for the safety of employees. We will share a login credential with the client so that they can have a watch on the cabs. Festival Backs up: we know that 80% of the companies works in US Shift and work on US holidays module but not on Indian Holiday Module. We make sure that operations aren’t hurt in case of Indian festivals and make a proper back up plan so that no one will have stress during festivals.</p>
+                            </div>
+                            <div class="col-12 col-lg-12 col-xl-12 mb-1">
+                                <button data-bs-target="#detail-info3" data-bs-toggle="collapse">Fleet <i class="bi bi-plus-lg text-end"></i></button>
+                                    <p class="collapse" id="detail-info3">iCabs has latest vehicle in fleet and we update our fleet with new vehicles every year so that we cater our clients with new like vehicles.</p>
+                            </div>
+                            <div class="col-12 col-lg-12 col-xl-12 mb-1">
+                                <button data-bs-target="#detail-info4" data-bs-toggle="collapse">Vehicle Assistance <i class="bi bi-plus-lg text-end"></i></button>
+                                    <p class="collapse" id="detail-info4">As we know that at times vehicle may breakdown as they are machines. But we have back up ready for that, we will assist on call and we deploy the vehicle in less than half hour time.</p>
+                            </div>
+                            <div class="col-12 col-lg-12 col-xl-12 mb-1">
+                                <button data-bs-target="#detail-info5" data-bs-toggle="collapse">Drivers <i class="bi bi-plus-lg text-end"></i></button>
+                                    <p class="collapse" id="detail-info5">We have well experienced and trained drivers, they can easily located employees locations as make the trips hassle free.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 col-xl-6">
+                        <img class="w-100" src="assests/images/video_preview.jpg" alt="">
+                    </div>
+                    </div>
+            </section>
+            <footer class="container-fluid p-4 foot">
+                <div class="row">
+                    <div class="col-10 mx-auto col-lg-3 col-xl-3">
+                        <h5>ABOUT US</h5>
+                        <p>iCabs Transport Solution is the largest transportation company in Telangana for working professionals. We started this transportation service with the aim to exceed customer expectation.</p>
+                    </div>
+                    <div class="col-10 mx-auto col-lg-3 col-xl-3">
+                        <h5>SERVICES</h5>
+                       <ul>
+                        <li><i class="bi bi-chevron-right"></i> Employee Transportation</a></li>
+                        <li><i class="bi bi-chevron-right"></i> Corporate Car</li>
+                        <li><i class="bi bi-chevron-right"></i> Airport Transfer</li>
+                        <li><i class="bi bi-chevron-right"></i> Montly Rental</li>
+                        <li><i class="bi bi-chevron-right"></i> Safety Standards of iCabs</li>
+                       </ul>
+                    </div>
+                    <div class="col-10 mx-auto col-lg-3 col-xl-3">
+                        <h5>CONTACT US</h5>                        
+                        <p><span><i class="bi bi-geo-alt"></i></span> iCabs Transport Solutions</p>
+                        <p>Flat No. 107, Lake view Apartments,</p>
+                        <p>Kondapur Road, Khanamet,</p>
+                        <p>Kothaguda, Hyderabad,</p>
+                        <p>Telangana. India - 500081</p>
+                    </div>
+                    <div class="col-10 mx-auto col-lg-3 col-xl-3 reach">
+                        <h5>REACH US</h5>
+                      <p><span><i class="bi bi-telephone"></i></span> 040-48555354</p>
+                      <p><span><i class="bi bi-phone"></i></span> +91 9849054621</p>
+                      <p><span><i class="bi bi-envelope"></i></span> info@icabstransport.com</p>
+                        <p><i class="bi bi-facebook"></i><i class="bi bi-linkedin"></i></p>
+                    </div>
+                </div>
+            </footer>
+            <section class="container-fluid p-2 copyright">
+                <p class="mx-5">copyright&copy; 2020<span class="text-white"> iCabs Transport Solution.</span></p>
+            </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="count-up-me/res/countMe/countMe.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

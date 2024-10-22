@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    }
+   
+    .dropdown{
+      display: inline-block;
+      position: relative;
+    }
+    .dropdown-options{
+      display: none;
+      position: absolute;
+      min-width:160px;
+      background-color: black;
+        }
+    .dropdown:hover .dropdown-options {
+      background-color: black;
+      display: block;
+      line-height: 2.0;
+      letter-spacing: 0.4px;
+      text-align: center;
+    }
+    .dropdown-options a{
+      color:white;
+      text-decoration: none;
+      padding: 12px 10px;
+      display: block;;
+    }
+    .dropdown-options a:hover{
+      background-color: black;
+      color:blue;
+      }
+    .wel span , .ser a{
+        color:darkblue;
+    }
+     .fom button{
+      background-color: darkblue;
+      color:white;
+    }
+    .ser .card h4{
+      margin-top:20px;
+      color:black;
+    }
+    .ser .card  a{  
+      background-color:white;
+      color:blue;
+      text-decoration: none;
+      margin-bottom: 30px;
+      text-align: center;
+      padding: 20px 50px;
+    }
+    .ser button:hover{
+      background-color:rgba(196, 192, 192, 0.747);
+    }
+   .ser span , .makes span ,.spa span {
+    color:yellow;
+   }
+   .ser .card-title, .ser .card-text{
+     padding:10px;
+       }
+      
+   .fom button:hover{
+    background-color: black;
+    color:white;
+   }
+   .meet i{
+    color:darkblue;
+   }
+   .makes{
+    background-color: darkblue;
+    color:white;
+   }
+   .makes button{
+     width:100%;
+     height:50px;
+   }
+   .foot ul li{
+    display:block;
+    padding:10px;
+    border-bottom:none;
+   }
+   .foot{
+    background-color: #1b2c3e;
+    color:white;
+   }
+   .foot h5{
+    color:yellow;
+   }
+   .foot .reach i{
+     padding:15px;
+       }
+       .copyright{
+        background-color:#121f2b;
+        color:lightgrey;
+       }
+       .about , .cont , .employee-trans , .monthlyrent , .airporttransfer{
+        background-color: #1b2c3e;
+        color:white;
+       }
+       .info h5{
+        font-family: 'Lato', sans-serif;
+       
+       }
+       .info , .contact{
+        font-family: 'Poppins', sans-serif;
+        font-size:15px;
+       }
+       .about-img{
+        background-color: #18496b;
+       }
+       .coment-form{
+        background-color: rgb(232, 228, 228);
+        padding:35px 30px 20px 30px;
+        border-radius: 2%;
+       }
+       .contact i{
+          color:darkblue;
+          padding:15px;
+       }
+       .carousel-indicators li{
+        color:black !important;
+       }
+       .emp{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+       }
+       .emp a{
+        color:white;
+        text-decoration: none;
+       }
+       .emp button:hover{
+        background-color: blue;
+       }
+       .emp h2, .emp h6{
+        margin-bottom : 30px;
+       }
+       .emp h2{
+        color:	rgb(111, 111, 241);
+       }
+      .fom input , .fom select , .fom textarea{
+        border:none;
+        border-bottom: 1px solid grey;
+      }
+ #detail-info1, #detail-info2, #detail-info3, #detail-info4, #detail-info5{
+  background-color: rgb(198, 198, 232);
+  color:black
+ }
+    header ul li a:hover{
+     background-color: #bcbcbc;
+     border-radius: 5%;
+    }
+    .emp div{
+            animation-iteration-count: infinite;
+    }
+    h2{
+      animation-delay: 0.2s;
+    }
+    h6{
+      animation-delay:0.7s;
+    }
+    button{
+    animation-delay: 1.2s;
+    }
+    .employee-trans a , .about a , .cont a , .monthlyrent a, .airporttransfer a , .monthlyrent-about a{
+      text-decoration: none;
+         color: blue;
+          }
+    .employee-trans a , .monthlyrent a:hover{
+ background-color: #172737;
+    }
+    .monthlyrent-about .card-text, .monthlyrent-about .card-title{
+      padding:20px;
+    }
+    .monthlyrent .card{
+      margin-bottom: 10px;
+    }
+    .monthlyrent button{
+      border: none;
+      margin: 20px;
+      padding: 10px 30px;
+    }
+   
